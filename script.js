@@ -5,3 +5,6 @@ fetch("https://coffee.alexflipnote.dev/random.json")
     const img = document.getElementById("img-card");
     img.src = data.file;
   });
+setTimeout(() => {
+  location.reload();
+}, 3000);
